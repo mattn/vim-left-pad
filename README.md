@@ -16,7 +16,6 @@ function! TestLeftPad()
   call assert_equal(leftpad#Pad("あ", -4, "い"), "あい")
   call assert_equal(leftpad#Pad("a", -4, "い"), "aい ")
 endfunction
-let 
 ```
 
 ## License
